@@ -1,0 +1,21 @@
+Git Bash
+
+
+$ git config --global user.name "likui"
+$ git config --global user.email "2931732029@qq.com"
+
+
+$ pwd
+/c/Users/likui
+
+
+$ cd /d/ruanjian_kf
+$ mkdir learngit
+$ cd learngit
+$ git init    //把当前目录变成Git可以管理的仓库，当前目录下出现一个.git文件
+$ ls -ah    //列出当前目录下的文件
+./  ../  .git/
+
+
+$ git add git.txt
+$ git commit -m "新增git.txt"
