@@ -19,3 +19,12 @@ $ ls -ah    //列出当前目录下的文件
 
 $ git add git.txt
 $ git commit -m "新增git.txt"
+
+
+$ git status    //仓库当前的修改状态
+$ git diff    //仓库当前的修改内容
+
+
+$ git add git.txt
+$ git status    //将要被提交的修改状态
+$ git commit -m "修改git.txt"
